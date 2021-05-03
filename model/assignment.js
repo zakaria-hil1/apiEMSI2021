@@ -7,10 +7,10 @@ let AssignmentSchema = Schema({
     id: Number,
     dateDeRendu: Date,
     nom: String,
-    rendu: Boolean
-    auteur: String
-    remarque: String
-    note: number
+    rendu: Boolean,
+    auteur: String,
+    remarque: String,
+    note: number,
     matiere: String
 });
 AssignmentSchema.plugin(aggregatePaginate);
